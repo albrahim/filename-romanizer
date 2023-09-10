@@ -1,0 +1,1 @@
+python -m nuitka --enable-plugin=pyside6 --disable-console --standalone --onefile --product-name='Filename Romanizer' --product-version=1.0 --output-dir='out' --output-filename='Filename Romanizer' main.py

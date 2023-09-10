@@ -1,0 +1,13 @@
+python3 -m nuitka \
+  --enable-plugin=pyside6 \
+  --include-module=socket \
+  --include-package-data=osxmetadata \
+  --disable-console \
+  --standalone \
+  --macos-create-app-bundle \
+  --macos-app-name='Filename Romanizer' \
+  --macos-app-version=1.0 \
+  --product-name='Filename Romanizer' \
+  --output-dir='out' \
+  --output-filename='Filename Romanizer' \
+  --clang main.py
